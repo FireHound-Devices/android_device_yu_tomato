@@ -15,7 +15,7 @@
 $(call inherit-product, device/yu/tomato/fh_tomato.mk)
 
 # Inherit some common FH stuff.
-$(call inherit-product, vendor/fh/config/common_full_phone.mk)
+$(call inherit-product, vendor/fh/config/common_mini_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
