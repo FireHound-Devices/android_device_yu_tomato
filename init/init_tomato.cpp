@@ -1,5 +1,5 @@
 /*
-   Copyright (c) 2015, The CyanogenMod Project
+   Copyright (c) 2016, The Firehound Project
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
@@ -58,7 +58,7 @@ void init_target_properties()
     char device[PROP_VALUE_MAX];
     int rc;
 
-    rc = property_get("ro.cm.device", device);
+    rc = property_get("ro.fh.device", device);
     if (!rc || strncmp(device, "tomato", PROP_VALUE_MAX))
         return;
 

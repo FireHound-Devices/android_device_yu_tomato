@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The Firehound Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ $(call inherit-product, device/yu/tomato/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tomato
-PRODUCT_NAME := full_tomato
+PRODUCT_NAME := fh_tomato
 PRODUCT_BRAND := YU
 PRODUCT_MODEL := AO5510
 PRODUCT_MANUFACTURER := YU

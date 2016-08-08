@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The Firehound Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,15 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/yu/tomato/full_tomato.mk)
+$(call inherit-product, device/yu/tomato/fh_tomato.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common FH stuff.
+$(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
-PRODUCT_NAME := cm_tomato
+PRODUCT_NAME := fh_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
